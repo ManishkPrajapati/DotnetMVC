@@ -1,0 +1,6 @@
+E:\DotnetMVC\AcademicAisle\AcademicAisle.Database\obj\Debug\net8.0\AcademicAisle.Database.csproj.AssemblyReference.cache
+E:\DotnetMVC\AcademicAisle\AcademicAisle.Database\obj\Debug\net8.0\AcademicAisle.Database.GeneratedMSBuildEditorConfig.editorconfig
+E:\DotnetMVC\AcademicAisle\AcademicAisle.Database\obj\Debug\net8.0\AcademicAisle.Database.AssemblyInfoInputs.cache
+E:\DotnetMVC\AcademicAisle\AcademicAisle.Database\obj\Debug\net8.0\AcademicAisle.Database.AssemblyInfo.cs
+E:\DotnetMVC\AcademicAisle\AcademicAisle.Database\obj\Debug\net8.0\AcademicAisle.Database.csproj.CoreCompileInputs.cache
+E:\DotnetMVC\AcademicAisle\AcademicAisle.Database\obj\Debug\net8.0\AcademicAisle.Database.sourcelink.json
