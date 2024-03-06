@@ -14,4 +14,10 @@
     <None Include="E:\DotnetMVC\AcademicAisle\AcademicAisle.Web\.editorconfig" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\AcademicAisle.Services\AcademicAisle.Services.csproj" />
+    <ProjectReference Include="..\AcademicAsile.entities\AcademicAsile.entities.csproj" />
+    <ProjectReference Include="..\AcademicAsile.entities\AcademicAsile.entities.csproj" />
+  </ItemGroup>
+
 </Project>

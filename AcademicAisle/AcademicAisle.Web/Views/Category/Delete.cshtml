@@ -1,0 +1,15 @@
+﻿@model AcademicAsile.entities.Category
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2><b>Delete Category</b></h2>
+<br/>
+
+<h2> Are you Sure ? </h2>
+
+<form method="post">
+    <input type="hidden" name="ID" value="@Model.Id" />
+    <button type="submit">Yes Delete</button>
+</form>
+<a href="../Views/Home/Index.cshtml">Cancel</a>

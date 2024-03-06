@@ -1,0 +1,200 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\DotnetMVC\\AcademicAisle\\AcademicAisle.Services\\AcademicAisle.Services.csproj": {}
+  },
+  "projects": {
+    "E:\\DotnetMVC\\AcademicAisle\\AcademicAisle.Database\\AcademicAisle.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DotnetMVC\\AcademicAisle\\AcademicAisle.Database\\AcademicAisle.Database.csproj",
+        "projectName": "AcademicAisle.Database",
+        "projectPath": "E:\\DotnetMVC\\AcademicAisle\\AcademicAisle.Database\\AcademicAisle.Database.csproj",
+        "packagesPath": "C:\\Users\\MANISH\\.nuget\\packages\\",
+        "outputPath": "E:\\DotnetMVC\\AcademicAisle\\AcademicAisle.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MANISH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\DotnetMVC\\AcademicAisle\\AcademicAsile.entities\\AcademicAsile.entities.csproj": {
+                "projectPath": "E:\\DotnetMVC\\AcademicAisle\\AcademicAsile.entities\\AcademicAsile.entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\DotnetMVC\\AcademicAisle\\AcademicAisle.Services\\AcademicAisle.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DotnetMVC\\AcademicAisle\\AcademicAisle.Services\\AcademicAisle.Services.csproj",
+        "projectName": "AcademicAisle.Services",
+        "projectPath": "E:\\DotnetMVC\\AcademicAisle\\AcademicAisle.Services\\AcademicAisle.Services.csproj",
+        "packagesPath": "C:\\Users\\MANISH\\.nuget\\packages\\",
+        "outputPath": "E:\\DotnetMVC\\AcademicAisle\\AcademicAisle.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MANISH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "E:\\DotnetMVC\\AcademicAisle\\AcademicAisle.Database\\AcademicAisle.Database.csproj": {
+                "projectPath": "E:\\DotnetMVC\\AcademicAisle\\AcademicAisle.Database\\AcademicAisle.Database.csproj"
+              },
+              "E:\\DotnetMVC\\AcademicAisle\\AcademicAsile.entities\\AcademicAsile.entities.csproj": {
+                "projectPath": "E:\\DotnetMVC\\AcademicAisle\\AcademicAsile.entities\\AcademicAsile.entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\DotnetMVC\\AcademicAisle\\AcademicAsile.entities\\AcademicAsile.entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DotnetMVC\\AcademicAisle\\AcademicAsile.entities\\AcademicAsile.entities.csproj",
+        "projectName": "AcademicAsile.entities",
+        "projectPath": "E:\\DotnetMVC\\AcademicAisle\\AcademicAsile.entities\\AcademicAsile.entities.csproj",
+        "packagesPath": "C:\\Users\\MANISH\\.nuget\\packages\\",
+        "outputPath": "E:\\DotnetMVC\\AcademicAisle\\AcademicAsile.entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MANISH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
