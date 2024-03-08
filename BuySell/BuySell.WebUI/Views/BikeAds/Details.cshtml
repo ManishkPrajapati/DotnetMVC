@@ -1,0 +1,118 @@
+﻿@model BuySell.WebUI.Models.BikeAdViewModel
+
+@{
+    ViewBag.Title = @Model.Title;
+}
+
+<a type="button" class="btn btn-default btn-lg pull-right" href="@Url.Action("Index", "BikeAds")">Bike Ads</a>
+<h2>@Model.Title</h2>
+<hr />
+
+<div class="row">
+    @Html.Partial("_CategoriesPartial")
+
+    <div class="col-md-9">
+
+        <div class="thumbnail">
+            <img title="@Model.Title" class="img-responsive" src="~/images/@Model.Images.First().Path" alt="@Model.Title" />
+            <div class="caption-full">
+                <h4 title="@Model.Currency.Name : @Model.Price" class="pull-right">@Html.DisplayFor(model => model.Currency.ISOCode) @Html.DisplayFor(model => model.Price)</h4>
+                <h4 title="@Model.Title">
+                    @Html.DisplayFor(model => model.Title)
+                </h4>
+                <p>
+                    <dl class="dl-horizontal">
+
+                        <dt>
+                            @Html.Label("Brand")
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.VehicleBrand.Name)
+                        </dd>
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Year.YearNo)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Year.YearNo)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.DrivenKilometers)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.DrivenKilometers)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Insurance)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Insurance)
+                        </dd>
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Color.Name)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Color.Name)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Condition.ConditionType)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Condition.ConditionType)
+                        </dd>
+
+                        <dt>
+                            @Html.Label("Seller")
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.Seller.Name)
+                        </dd>
+                        <dt>
+                            @Html.Label("Location")
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.City.Name), @Html.DisplayFor(model => model.State.Name), @Html.DisplayFor(model => model.Country.Name)
+                        </dd>
+
+                        <dt>
+                            @Html.Label("Contact")
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.Seller.MobileNumber)
+                        </dd>
+                        <dt>
+                            @Html.Label("Posted On")
+                        </dt>
+                        <dd>
+                            @Html.DisplayFor(model => model.PostingTime)
+                        </dd>
+                    </dl>
+
+                </p>
+
+                <p>@Html.DisplayFor(model => model.Description)</p>
+            </div>
+
+            <div class="ratings">
+                <p>@Model.Reviews.Count Reviews</p>
+            </div>
+        </div>
+
+        @Html.Partial("_BikeAdControlReviewPartial")
+
+        @Html.Partial("_ReviewsPartial")
+
+    </div>
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
